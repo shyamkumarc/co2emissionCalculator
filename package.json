@@ -1,0 +1,29 @@
+{
+  "name": "co2emissioncalculator",
+  "version": "1.0.0",
+  "description": "This utility helps calculate the CO2 emmission for a travel",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shyamkumarc/co2emissionCalculator.git"
+  },
+  "author": "shyam Kumar C",
+  "license": "ISC",
+  "bin": {
+    "co2-calculator": "./bin/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/shyamkumarc/co2emissionCalculator/issues"
+  },
+  "homepage": "https://github.com/shyamkumarc/co2emissionCalculator#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2",
+    "request": "^2.88.2",
+    "yargs": "^13.2.4"
+  }
+}
